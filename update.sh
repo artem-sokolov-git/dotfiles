@@ -18,11 +18,7 @@ if git diff --staged --quiet; then
     echo "📝 Изменений не обнаружено"
 else
     # Создать коммит с текущей датой
-    git commit -m "Update dotfiles $(date +'%Y-%m-%d %H:%M')
-
-🤖 Generated with [Claude Code](https://claude.ai/code)
-
-Co-Authored-By: Claude <noreply@anthropic.com>"
+    git commit -m "Update dotfiles $(date +'%Y-%m-%d %H:%M')"
     
     # Отправить на GitHub
     git push

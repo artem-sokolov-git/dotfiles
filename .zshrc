@@ -129,10 +129,6 @@ export PATH="$PATH:/Users/artemsokolov/.local/bin"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-# Added by LM Studio CLI (lms)
-export PATH="$PATH:/Users/artemsokolov/.lmstudio/bin"
-# End of LM Studio CLI section
-
 # The following lines have been added by Docker Desktop to enable Docker CLI completions.
 fpath=(/Users/artemsokolov/.docker/completions $fpath)
 autoload -Uz compinit
